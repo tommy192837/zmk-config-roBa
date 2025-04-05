@@ -55,7 +55,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                                  &kp Y            &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &lt 5 D       &kp F                        &kp G             &msc SCRL_UP                       &kp LEFT_SHIFT    &kp H            &kp J  &kp K      &kp L    &kp ENTER
+&kp A             &kp S         &lt 5 D       &kp F                        &kp G             &kp MINUS                          &kp LEFT_SHIFT    &kp H            &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &lt 3 X       &kp C         &kp V                        &kp B             &msc SCRL_DOWN                     &kp LEFT_CONTROL  &kp N            &kp M  &kp COMMA  &kp DOT  &kp DELETE
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 5 INT_HENKAN  &lt_to_layer_0 1 INT_MUHENKAN      &lt 5 SPACE       &lt 2 BACKSPACE                             &kp MINUS
             >;
@@ -74,10 +74,10 @@
 
         NUM {
             bindings = <
-&kp ESCAPE               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                      &kp DOLLAR        &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB                  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp TILDE      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL      &kp UNDER        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                   &trans        &trans        &trans        &trans        &trans         &trans           &trans                                                                     &kp PIPE
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                  &kp DOLLAR        &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TILDE      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp PLUS      &kp MINUS     &kp ASTRK     &kp PERCENT   &kp EQUAL     &kp EQUAL      &kp UNDER        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans        &trans        &trans        &trans        &trans        &trans         &trans           &trans                                                                     &kp PIPE
             >;
         };
 
