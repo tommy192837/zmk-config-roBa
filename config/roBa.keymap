@@ -75,10 +75,10 @@
 
         kigou {
             bindings = <
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp LESS_THAN  &kp GREATER_THAN                                  &kp HOME          &kp END            &kp PAGE_UP     &kp PAGE_DOWN    &kp BACKSPACE
-&kp DOLLAR            &kp AMPERSAND          &kp HASH   &kp AT         &kp NUMBER_9      &kp TILDE      &kp EXCLAMATION  &kp QUESTION      &kp HASH           &kp SEMICOLON   &kp SEMICOLON    &trans
-&kp PLUS              &kp MINUS              &kp ASTRK  &kp PERCENT    &kp EQUAL         &kp EQUAL      &kp UNDER        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans                &trans                 &trans     &trans         &trans            &trans         &trans           &trans                                                                &kp PIPE
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp LESS_THAN  &kp GREATER_THAN                              &kp EXCLAMATION  &kp QUESTION    &kp UP_ARROW    &trans           &kp BACKSPACE
+&kp DOLLAR            &kp AMPERSAND          &kp HASH   &kp AT         &kp NUMBER_9      &kp TILDE      &kp HOME     &kp END          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp PLUS              &kp MINUS              &kp ASTRK  &kp PERCENT    &kp EQUAL         &kp EQUAL      &kp PAGE_UP  &kp PAGE_DOWN    &trans          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans                &trans                 &trans     &trans         &trans            &trans         &trans       &trans                                                            &kp PIPE
             >;
         };
 
